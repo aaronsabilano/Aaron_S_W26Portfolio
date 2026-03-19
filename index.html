@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aaron Sabilano | Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Aaron Sabilano</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="pages/bio.html">Bio</a>
+        <a href="pages/resume.html">Resume</a>
+        <a href="pages/cover-letter.html">Cover Letter</a>
+        <a href="pages/philosophy.html">Philosophy</a>
+        <a href="pages/academic.html">Academic</a>
+        <a href="pages/work-samples.html">Work Samples</a>
+        <a href="pages/capstone.html">Capstone</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+<section class="card">
+  <h2>Personal Data</h2>
+
+  <p><strong>Name:</strong> Aaron Sabilano</p>
+  <p><strong>Location:</strong> Toronto, ON, Canada</p>
+
+  <p><strong>Email:</strong> your.email@example.com</p>
+  <p><strong>Phone:</strong> (optional) 416-___-____</p>
+
+  <p><strong>LinkedIn:</strong> (optional) add link</p>
+  <p><strong>GitHub:</strong> (optional) add link</p>
+
+  <hr>
+
+  <h2>Welcome</h2>
+  <p>
+    This portfolio includes my resume, cover letter template, academic work samples,
+    and capstone project documents.
+  </p>
+</section>
+
+    <section class="grid">
+      <a class="tile" href="pages/resume.html">Resume</a>
+      <a class="tile" href="pages/work-samples.html">Work Samples</a>
+      <a class="tile" href="pages/capstone.html">Capstone</a>
+      <a class="tile" href="pages/philosophy.html">Career Goal / Philosophy</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Aaron Sabilano</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
