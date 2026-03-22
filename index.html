@@ -7,74 +7,170 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1 class="logo">Aaron Sabilano</h1>
-      <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="pages/bio.html">Bio</a>
-        <a href="pages/resume.html">Resume</a>
-        <a href="pages/cover-letter.html">Cover Letter</a>
-        <a href="pages/philosophy.html">Philosophy</a>
-        <a href="pages/academic.html">Academic</a>
-        <a href="pages/work-samples.html">Work Samples</a>
-        <a href="pages/capstone.html">Capstone</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-
-   <section class="card hero">
-  <p class="eyebrow">Computer Programming Student • George Brown College</p>
-  <h2>Building practical, user-focused software.</h2>
-  <p class="hero-text">
-    Hi, I’m Aaron Sabilano. This portfolio highlights my academic work,
-    software projects, and capstone experience across full-stack and mobile development.
-  </p>
-
-  <div class="hero-actions">
-    <a class="button-primary" href="pages/work-samples.html">View Work Samples</a>
-    <a class="button-secondary" href="pages/capstone.html">View Capstone</a>
+<header class="site-header">
+  <div class="container">
+    <h1 class="logo">Aaron<br>Sabilano</h1>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="pages/bio.html">Bio</a>
+      <a href="pages/resume.html">Resume</a>
+      <a href="pages/cover-letter.html">Cover</a>
+      <a href="pages/philosophy.html">Philosophy</a>
+      <a href="pages/academic.html">Academic</a>
+      <a href="pages/work-samples.html">Projects</a>
+      <a href="pages/capstone.html">Capstone</a>
+      <a href="pages/professional.html">Professional</a>
+    </nav>
   </div>
-</section>
+</header>
 
-<section class="card">
-  <h2>Personal Data</h2>
+   <main class="container">
 
-  <p><strong>Name:</strong> Aaron Sabilano</p>
-  <p><strong>Location:</strong> Toronto, ON, Canada</p>
+  <!-- HERO -->
+<section class="card hero hero-flex">
 
-  <p><strong>Email:</strong> aaron_sabi@example.com</p>
-  <p><strong>Phone:</strong> 416-559-0506</p>
+  <div class="hero-text-container">
+    <p class="eyebrow">Portfolio</p>
 
-  <p><strong>LinkedIn:</strong> (optional) add link</p>
-<p><strong>GitHub:</strong> 
-  <a href="https://github.com/aaronsabilano" target="_blank">
-    github.com/aaronsabilano
-  </a>
-</p>
-  <hr>
+    <h2>Aaron Sabilano</h2>
 
- 
-</section>
+    <p class="hero-text">
+      Computer Programming student focused on <strong>data analysis, databases, and backend systems</strong>.
+      I build practical solutions with a strong emphasis on <strong>accuracy, organization, and real-world usability</strong>.
+    </p>
 
-    <section class="grid">
-      <a class="tile" href="pages/resume.html">Resume</a>
-      <a class="tile" href="pages/work-samples.html">Work Samples</a>
-      <a class="tile" href="pages/capstone.html">Capstone</a>
-      <a class="tile" href="pages/philosophy.html">Career Goal / Philosophy</a>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> Aaron Sabilano</p>
+    <div class="hero-actions">
+      <a class="button-primary" href="work-samples.html">View My Work</a>
+      <a class="button-secondary" href="resume.html">View Resume</a>
     </div>
-  </footer>
+  </div>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+  <div class="hero-image">
+    <img src="assets/img/headshot.png" alt="Aaron Sabilano">
+  </div>
+
+</section>
+
+
+  <!-- WHAT I DO -->
+  <section class="card">
+    <h2>What I Do</h2>
+
+    <p class="section-intro">
+      I focus on building systems that are reliable, organized, and easy to work with.
+      My interest lies in <strong>data, backend logic, and improving workflows</strong> — not just building interfaces.
+    </p>
+
+    <div class="info-grid">
+      <div class="info-item">
+        <strong>Data & Databases</strong>
+        Working with SQL, MongoDB, and structured data to ensure accuracy and usability.
+      </div>
+
+      <div class="info-item">
+        <strong>Backend Logic</strong>
+        Building practical systems and understanding how components work together behind the scenes.
+      </div>
+
+      <div class="info-item">
+        <strong>Workflow Improvement</strong>
+        Improving processes by organizing data and reducing friction in everyday tasks.
+      </div>
+    </div>
+  </section>
+
+
+  <!-- STRENGTHS -->
+  <section class="card">
+    <h2>Strengths</h2>
+
+    <div class="badge-row">
+      <span class="badge">Problem Solving</span>
+      <span class="badge">Attention to Detail</span>
+      <span class="badge">Team Leadership</span>
+      <span class="badge">Communication</span>
+      <span class="badge">Pragmatic Thinking</span>
+      <span class="badge">Doing Things Properly</span>
+    </div>
+
+    <p style="margin-top:16px;">
+      My background as a Communications Manager strengthened my ability to bridge the gap between technical systems and real users.
+      I’ve worked closely with teams, management, and external providers to ensure systems are understood, organized, and functioning properly.
+    </p>
+  </section>
+
+
+  <!-- EXPERIENCE STORY (THIS IS YOUR EDGE) -->
+  <section class="card">
+    <h2>Real-World Experience</h2>
+
+    <p>
+      Before transitioning into programming, I worked in a dental clinic environment where I managed communications,
+      coordinated with service providers, and helped staff navigate a clinic management system that was often difficult to use.
+    </p>
+
+    <p>
+      This experience shaped how I approach technology today. I value systems that are <strong>clear, organized, and reliable</strong>.
+      I understand how frustrating poorly designed tools can be — especially for non-technical users — and I aim to build solutions that reduce that friction.
+    </p>
+
+    <p>
+      Whether it’s ensuring database accuracy, improving workflows, or supporting team communication,
+      my goal is always to make systems easier and more effective to use.
+    </p>
+  </section>
+
+
+  <!-- FEATURED PROJECTS -->
+  <section class="card">
+    <h2>Featured Projects</h2>
+
+    <div class="grid">
+
+      <div class="project-card">
+        <h3>Pomodachi (iOS App)</h3>
+        <p class="project-meta">Swift • UIKit • Mobile Development</p>
+        <p>
+          A productivity-focused mobile app built using Swift and UIKit.
+          Designed to help users manage focus sessions with a clean and structured interface.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>ShiftLite (Capstone Project)</h3>
+        <p class="project-meta">Full-Stack • Agile • Team Project</p>
+        <p>
+          A staff and workflow management system for event and venue environments.
+          Contributed to planning, documentation, QA, and team coordination in an Agile workflow.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- NAVIGATION -->
+  <section class="grid">
+    <a class="tile" href="pages/bio.html">Bio</a>
+    <a class="tile" href="pages/academic.html">Academic</a>
+    <a class="tile" href="pages/work-samples.html">Work Samples</a>
+    <a class="tile" href="pages/capstone.html">Capstone</a>
+    <a class="tile" href="pages/resume.html">Resume</a>
+    <a class="tile" href="pages/cover-letter.html">Cover Letter</a>
+    <a class="tile" href="pages/professional.html">Professional</a>
+  </section>
+
+</main>
+
+ <footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Aaron Sabilano</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+ 
 </body>
 </html>
