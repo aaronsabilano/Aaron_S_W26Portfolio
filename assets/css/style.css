@@ -62,9 +62,7 @@ main.container {
   padding-bottom: 52px;
 }
 
-/* =========================
-   HEADER / NAV
-========================= */
+
 
 .site-header {
   background: var(--surface-header);
@@ -112,9 +110,6 @@ main.container {
   background: var(--accent-soft);
 }
 
-/* =========================
-   CARDS / PAGE BLOCKS
-========================= */
 
 .card {
   width: 100%;
@@ -170,9 +165,7 @@ hr {
   margin: 26px 0;
 }
 
-/* =========================
-   LINKS / BUTTONS
-========================= */
+
 
 a {
   color: var(--accent);
@@ -217,9 +210,7 @@ a:hover {
   transform: translateY(-1px);
 }
 
-/* =========================
-   HERO
-========================= */
+
 
 .hero {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(241, 245, 249, 0.95) 100%);
@@ -282,9 +273,6 @@ a:hover {
   margin-top: 24px;
 }
 
-/* =========================
-   HOME PAGE COMPONENTS
-========================= */
 
 .grid {
   display: grid;
@@ -371,9 +359,7 @@ a:hover {
   margin-bottom: 12px;
 }
 
-/* =========================
-   EMBEDS / MEDIA
-========================= */
+
 
 .card iframe,
 .card embed,
@@ -439,10 +425,6 @@ a:hover {
 .next {
   right: 10px;
 }
-
-/* =========================
-   FOOTER
-========================= */
 
 .site-footer {
   background: transparent;
@@ -579,18 +561,18 @@ a:hover {
   }
 }
 
-/* Professional page images */
+
 .professional-images {
   display: flex;
   flex-direction: column;
-  gap: 18px; /* spacing between images */
+  gap: 18px; 
   margin-top: 16px;
 }
 
 .professional-images img {
   width: 100%;
-  max-width: 720px;   /* ⬅️ controls size */
-  margin: 0 auto;     /* center images */
+  max-width: 720px; 
+  margin: 0 auto;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
 }
